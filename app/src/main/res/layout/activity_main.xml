@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="142dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="Top Left Radius" />
+
+    <SeekBar
+        android:id="@+id/seekbarTL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="379dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="Top Right Radius" />
+
+    <SeekBar
+        android:id="@+id/seekbarTR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="Bottom Right Radius" />
+
+    <SeekBar
+        android:id="@+id/seekbarBR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="379dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="Bottom Left Radius" />
+
+    <SeekBar
+        android:id="@+id/seekbarBL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <View
+        android:id="@+id/box"
+        android:layout_width="162dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_shape" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Copy CSS" />
+
+
+</LinearLayout>
